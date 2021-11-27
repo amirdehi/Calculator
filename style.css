@@ -1,0 +1,92 @@
+body {
+    font-family: 'sans-serif', 'Josefin Sans', sans-serif;
+    background-color: #9f9f9f;
+}
+
+#calculator {
+    height: 400px;
+    width: 300px;
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #2b2b2b;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px 5px #000000;
+}
+
+#title {
+    color: #e3e3e3;
+    text-align: center;
+}
+
+#entry {
+    width: 85%;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid #555555;
+    border-radius: 5px;
+    background-color: #787b7d;
+    font-size: 40px;
+}
+
+#answer{
+    padding: 2px;
+    margin: 2px;
+}
+
+#buttons {
+    position: absolute;
+    display: inline-block;
+    width: 300px;
+    margin-top: 19px;
+    margin-left: 23px;
+}
+
+#equalButton {
+    position: absolute;
+    margin-left: 9px;
+    margin-top: -45px;
+    height: 90px;
+}
+
+#zeroButton {
+    width: 115px;
+}
+
+.red{
+    background-color: #a72d45;
+}
+button {
+    border-radius: 5px;
+    border: 2px solid #555555;
+    background-color: #447d9b;
+    margin: 5px;
+    height: 40px;
+    width: 50px;
+}
+
+button:active {
+    transform: translate(0, 1px);
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+.yellow {
+    font-size: 14px;
+    background-color: #bd8e3e;
+}
+
+#footer {
+    position: relative;
+    font-size: 12px;
+    font-weight: lighter;
+    margin-bottom: 0;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+    height: 30px;
+}
